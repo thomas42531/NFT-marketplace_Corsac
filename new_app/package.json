@@ -41,7 +41,7 @@
     "web3modal": "^1.9.4"
   },
   "scripts": {
-    "start": "node src/setupTests.js | react-scripts start",
+    "start": "node src/setupTests.js | react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
