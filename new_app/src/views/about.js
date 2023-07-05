@@ -38,9 +38,7 @@ export default function About() {
                                 that they cannot foresee the pain and trouble that are bound to ensue; and equal blame
                                 belongs to those who fail in their duty.
                             </p> */}
-                            {/* <div className="home-btns">
-                                <a href="#" className="home__btn">Learn More</a>
-                            </div> */}
+
                         </div>
                     </div>
                 </div>

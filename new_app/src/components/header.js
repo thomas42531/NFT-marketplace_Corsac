@@ -56,7 +56,7 @@ export default function Header() {
             </Link>
             
           </div>
-
+{/* basic UI here */}
           <form action="#" className="header__search">
             <input type="text" placeholder="Search Here..."/>
             <button type="button"><i className="far fa-search"></i></button>
@@ -111,7 +111,6 @@ export default function Header() {
               walletState.connected ?
                 <div className="header__action header__action--profile">
                   <a className="header__profile-btn" href="#" data-bs-toggle="dropdown">
-                    {/* <img src="assets/img/avatars/avatar-1.jpg" alt=""/> */}
                     <i className="header__action--icon far fa-wallet wallet-icon"></i>
                     <div>
                       <p>{walletState.address.substr(0,7)} ...</p>
@@ -129,9 +128,7 @@ export default function Header() {
                 :  
                 <></>
               }
-            
           </div>
-
           <button className="header__btn" type="button" onClick={show_hide}>
             <span></span>
             <span></span>

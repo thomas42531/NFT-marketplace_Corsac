@@ -6,7 +6,7 @@ const initialState = {
   status: false,
   contract: {},
 }
-
+// -------------------------------- contract slice------------------//
 export const contractSlice = createSlice({
   name: 'contract',
   initialState,
